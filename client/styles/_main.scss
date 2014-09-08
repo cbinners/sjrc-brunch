@@ -1,0 +1,12 @@
+// Let's give some overall style to the page.
+body {
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  // Here is some example styling on the text
+  color: $main-font-color;
+}

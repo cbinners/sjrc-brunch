@@ -1,0 +1,16 @@
+{
+  "author": "Cory Binnersley",
+  "name": "sassy-jsx-react-coffee-brunch",
+  "version": "0.0.1",
+  "main": "public/app.js",
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "react": "~0.11.0",
+    "underscore": "~1.6.0"
+  },
+  "overrides": {
+    "underscore": {
+      "main": "underscore.js"
+    }
+  }
+}
