@@ -6,13 +6,14 @@
   "dependencies": {
     "auto-reload-brunch": "^1.7.3",
     "body-parser": "^1.8.1",
+    "cjsx-react-brunch": "0.0.2",
     "coffee-script": "^1.6.3",
     "coffee-script-brunch": "^1.7.3",
     "css-brunch": "^1.7.0",
     "express": "~4.2.0",
     "react": "~0.11.0",
     "react-brunch": "^1.0.6",
-    "sass-brunch": "^1.8.2",
+    "sass-brunch": "^1.8.8",
     "underscore": "~1.6.0"
   }
 }
