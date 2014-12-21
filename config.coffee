@@ -26,5 +26,5 @@ exports.config =
       path
         # Strip the client/ prefix from module names
         .replace(/^client\//, '')
-        # Strip the .jsx extension from module names
-        .replace(/\.jsx/, '')
+        # Strip the .cjsx extension from module names
+        .replace(/\.cjsx/, '')

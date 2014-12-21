@@ -8,4 +8,4 @@ module.exports = React.createClass
 
   render: ->
     # Let's render whatever we were given in the "text" property.
-    `<div>{this.props.text}</div>`
+    <div>{@props.text}</div>

@@ -13,7 +13,7 @@ module.exports = React.createClass
   render: ->
     # This is backticks JS which is raw javascript.
     # Here we create a few DOM elements, and a custom component with a text property set.
-    `<div className="main">
+    <div className="main">
       <div>Example Text</div>
-      <MyComponent text={this.state.someValue}/>
-    </div>`
+      <MyComponent text={@state.someValue}/>
+    </div>
