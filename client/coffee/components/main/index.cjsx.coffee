@@ -1,5 +1,3 @@
-MyComponent = require 'coffee/components/my_component'
-
 module.exports = React.createClass
 
   # This is the name of our react component.
@@ -8,12 +6,17 @@ module.exports = React.createClass
   # Sets the initial state of this component.
   getInitialState: ->
     someValue: "Some text for our custom component"
+    numberOfClicks: 0
+
+  handleClick: ->
+    newNumber = @state.numberOfClicks + 1
+    @setState numberOfClicks: newNumber
+
 
   # What we actually want to render to the screen.
   render: ->
-    # This is backticks JS which is raw javascript.
-    # Here we create a few DOM elements, and a custom component with a text property set.
     <div className="main">
-      <div>Example Text</div>
-      <MyComponent text={@state.someValue}/>
+      <div className="centerInPage" onClick={@handleClick}>Example Text</div>
+      <div>Hello Text</div>
+      <div className="clickItem">Number of Clicks: <span className="count">{@state.numberOfClicks}</span></div>
     </div>
